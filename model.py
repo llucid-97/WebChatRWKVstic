@@ -28,6 +28,12 @@ class OnlineModel:
 online_models = [
     # TODO: add more models here
     OnlineModel(
+        name="RWKV-4-Pile-14B-ctx8192",
+        url="https://huggingface.co/BlinkDL/rwkv-4-pile-14b/resolve/main/RWKV-4-Pile-14B-20230313-ctx8192-test1050.pth",
+        sha256="9e1b9b44f2a98124d86fe35e298f230e3a4fa7b60431962da282817ae1b0bf32",
+        vram_gb=29,
+    ),
+    OnlineModel(
         name="RWKV-4-Pile-7B-ctx4096",
         url="https://huggingface.co/BlinkDL/rwkv-4-pile-7b/resolve/main/RWKV-4-Pile-7B-20230109-ctx4096.pth",
         sha256="9ea1271b25deb6c72bd29f629147d5013cc7d7c69f9715192f6b6b92fca08f64",
